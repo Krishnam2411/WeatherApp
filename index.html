@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="body">
+      <div id="side-bar">
+        <span id="icon">icon</span>
+      </div>
+      <div id="main">
+        <div id="search-section">
+          <input
+            type="search"
+            name="location"
+            id="search-bar"
+            autocomplete="false"
+            placeholder="Search"
+          />
+        </div>
+        <div id="weatherdiv">
+            <div class="group shape">
+                <div class="fit" id="place">Loading ...</div>
+                <div class="fit" id="temp"></div>
+                <div class="fit" id="condition"></div>
+                <div class="fit" id="feelsLike"></div>
+            </div>
+          <div class="card" id="wind"></div>
+          <div class="card" id="humidity"></div>
+          <div class="card" id="visibility"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
